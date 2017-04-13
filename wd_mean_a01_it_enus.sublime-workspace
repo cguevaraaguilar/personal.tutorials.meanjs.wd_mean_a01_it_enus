@@ -3,19 +3,14 @@
 	{
 		"selected_items":
 		[
+			[
+				"tim",
+				"timestamp"
+			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "demo.html",
-			"settings":
-			{
-				"buffer_size": 330,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -24,16 +19,28 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 192.0,
-		"last_filter": "html",
+		"height": 112.0,
+		"last_filter": "javasr",
 		"selected_items":
 		[
+			[
+				"javasr",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
 			[
 				"html",
 				"Set Syntax: HTML"
 			]
 		],
-		"width": 392.0
+		"width": 467.0
 	},
 	"console":
 	{
@@ -53,6 +60,13 @@
 	},
 	"file_history":
 	[
+		"/home/cguevara/gitRepository/personal.tutorials.meanjs.wd_mean_a01_it_enus/articleApp/javascripts/articleApp.js",
+		"/home/cguevara/gitRepository/personal.tutorials.meanjs.wd_mean_a01_it_enus/articleApp/main.html",
+		"/home/cguevara/gitRepository/personal.tutorials.meanjs.wd_mean_a01_it_enus/demoMVC.js",
+		"/home/cguevara/gitRepository/personal.tutorials.meanjs.wd_mean_a01_it_enus/Node.js/demo.js",
+		"/home/cguevara/gitRepository/personal.tutorials.meanjs.wd_mean_a01_it_enus/Node.js/server.js",
+		"/home/cguevara/gitRepository/personal.tutorials.meanjs.wd_mean_a01_it_enus/demoMVC.html",
+		"/home/cguevara/gitRepository/personal.tutorials.meanjs.wd_mean_a01_it_enus/demo01.html"
 	],
 	"find":
 	{
@@ -87,37 +101,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "demo.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 330,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
