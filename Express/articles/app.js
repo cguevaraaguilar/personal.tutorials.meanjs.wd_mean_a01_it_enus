@@ -5,6 +5,13 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
+// Referencia a los archivos mongoose
+var mongoose = require('mongoose');
+require ('./models/articles');
+
+mongoose.connect ('mongodb://localhost/articlesDB');
+
+
 // Se indieca el ruteador
 //var index = require('./routes/index');
 //var users = require('./routes/users');
