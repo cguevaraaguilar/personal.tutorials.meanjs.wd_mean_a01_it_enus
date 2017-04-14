@@ -8,9 +8,10 @@ var bodyParser = require('body-parser');
 // Referencia a los archivos mongoose
 var mongoose = require('mongoose');
 require ('./models/articles');
-
 mongoose.connect ('mongodb://localhost/articlesDB');
 
+// referencia a index.js
+var index = require ('./routes/index');
 
 // Se indieca el ruteador
 //var index = require('./routes/index');
@@ -30,6 +31,9 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+
+// indica que utilizará / index.js
+app.use ('/', index);
 
 //indica que se utilizará el api.js
 //app.use('/', index);

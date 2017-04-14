@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Articles</title>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+		<script type="text/javascript" src="javascripts/articleApp.js"></script>
+
+		<!-- Soporte para paginas parciales -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.min.js"></script>
+	</head>
+	<body ng-app="articleApp">
+
+		<!--se eliminó todo el bloque <div> -->
+
+		<div>
+			<a href="#/">Articles</a>
+			<a href="#/about">About</a>
+		</div>
+		<!--Vista parcial -->
+		<div ng-view></div>
+
+	</body>
+</html>
